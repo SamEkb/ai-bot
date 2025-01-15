@@ -1,0 +1,25 @@
+app:
+  id: 1
+  name: ai-bot
+  log_level: debug
+  is_log_json: false
+
+bot:
+  token: ""
+  timeout: 10s
+  whitelist:
+    -
+
+openai:
+  enabled: true
+  api_key: ""
+
+metrics:
+  enabled: false
+  host: ""
+  port: 0
+
+tracing:
+  enabled: false
+  host: ""
+  port: 0
